@@ -1,5 +1,5 @@
 web : gunicorn post:app --log-file-
-
+worker : python worker.py
 
 
 
