@@ -1,4 +1,4 @@
-1 web: gunicorn app:python post.py
+web : gunicorn post:app --log-file-
 
 
 
