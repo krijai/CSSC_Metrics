@@ -1,0 +1,26 @@
+1 web: gunicorn app:post.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:x
+exit
+logout
+
