@@ -8,7 +8,7 @@ def formval():
 		return render_template('layout.html',subdate=dateval)
 @app.route('/', methods=['GET','POST'])
 def value():
-	y= u'r618'
+	y= u'r718'
 	return render_template('layout.html',y=y)
 @app.route('/radio', methods=['GET','POST'])
 def rad():
