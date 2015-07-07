@@ -1,4 +1,5 @@
- web: python post.py runserver
+ web: gunicorn app:app
+ init: python post.py
 
 
 
