@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <b>Your Performance as of <em style="color: orange;font-size: 17px;;">{{Date}}</em></b>
+	
+ <form action="/" method="POST">
+<input type="number" size="50" maxlength="100" name="weekno" style="
+    margin-left: 20%;
+    Width: 600px;
+">
+<br>
+<br>
+<input type="submit" name="save" value="Submit" style="
+    margin-left: 50%;
+    height: 30px;
+    width: 100px;
+">
+</form>
+The stock for {{weekno}} is xyz
+<div class="container" style="color: black;font-size: 17px;">
+<table class="tab" >
+  <tr>
+    <th>Name</th>
+	<th>Orders Count</th>
+	<th>TAT % </th>
+	
+  </tr>
+  <tr>
+    <td>Group A</td>
+	<td>499</td>
+	<td>95%</td>
+  </tr>
+  <tr>
+    <td>Group B</td>
+	<td>435</td>
+	<td>97%</td>
+  </tr>
+  <tr>
+    <td>Group C</td>
+	<td>569</td>
+	<td>98%</td>
+  </tr>
+  <tr>
+    <td>Group D</td>
+	<td>300</td>
+	<td>99%</td>
+  </tr>
+  
+ </div>
+
+</body>
+</html>
+{% endblock %} 
