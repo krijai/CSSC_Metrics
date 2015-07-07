@@ -1,4 +1,4 @@
-1 web: gunicorn app:post.py
+1 web: gunicorn app:python post.py
 
 
 
