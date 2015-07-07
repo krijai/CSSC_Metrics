@@ -1,7 +1,4 @@
- web: gunicorn app:app
- init: python post.py
-
-
+ web: gunicorn -b 0.0.0.0:$PORT post:app
 
 
 
