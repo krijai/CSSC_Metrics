@@ -1,2 +1,2 @@
-web: gunicorn -w 4 -b "0.0.0.0:$PORT" CSSC_Metrics:app
+web: gunicorn first:app --log-file -
 
