@@ -1,4 +1,4 @@
- web: gunicorn -b 0.0.0.0:$PORT post:app
+ web: python post.py
 
 
 
