@@ -10,6 +10,7 @@ def formval():
 @app.route('/', methods=['GET','POST'])
 def value():
 	y= u'r528'
+	return "Roger that.."
 	return render_template('layout.html',y=y)
 @app.route('/radio', methods=['GET','POST'])
 def rad():
