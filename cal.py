@@ -9,11 +9,12 @@ def formval():
 		return render_template('layout.html',subdate=dateval)
 @app.route('/', methods=['GET','POST'])
 def value():
-	#y= u'r528'
-	return "Roger that.."
-	#return render_template('layout.html',y=y)
+	y= u'r528'
+	#return "Roger that.."
+	return render_template('layout.html',y=y)
 @app.route('/radio', methods=['GET','POST'])
 def rad():
 		x= 'roger'
 		return render_template('layout.html',roger=x)
-
+if __name__== '__main__':
+	app.run()
