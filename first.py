@@ -8,5 +8,5 @@ def hello():
     return render_template('layout.html') #Main Page
 @app.route('/radio', methods=['GET','POST'])
 def rad():
-	x= 'roger'
+	x= 'rogerr'
 	return render_template('layout.html',roger=x)
